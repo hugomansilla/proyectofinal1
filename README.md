@@ -21,4 +21,4 @@ Primer entregable del proyecto final DesafioLatam
  - Imágenes: fotos de los insumos desde otras páginas de venta de insumos e imagenes de Google.
  - Dependencias: Grillas, formulario de contacto y barra de navegación con Bootstrap 3.3, Iconos con FontAwesome y Iconmonstr.  
 
- <img src="dibujo.jpg" height="400" alt="dibujo"/>
+![Screenshot](dibujo.png)
