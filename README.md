@@ -15,5 +15,7 @@ Primer entregable del proyecto final DesafioLatam
 #Requisitos específicos
  - Colores: # # # (Rueda de colores creada con Adobe color)
  - Fuentes: 	(Fuentes de Google Fonts)
- - Imágenes: fotos de los insumos, 
- - Dependencias: Grillas, formulario de contacto y barra de navegación con Bootstrap 3.3, Iconos con FontAwesome y Iconmonstr, Gif con Giphy.  
+ - Imágenes: fotos de los insumos desde otras páginas de venta de insumos e imagenes de Google.
+ - Dependencias: Grillas, formulario de contacto y barra de navegación con Bootstrap 3.3, Iconos con FontAwesome y Iconmonstr.  
+
+ dibujo.jpg
