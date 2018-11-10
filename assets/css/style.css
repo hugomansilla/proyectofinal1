@@ -1,0 +1,93 @@
+/*Global Styles*/
+body{
+	font-family: 'Lobster', cursive;
+}	
+
+h1, h2, h3{
+
+} 
+
+p {
+
+}
+/*Barra de navegación*/
+ .navbar{
+ 	background-color: #99BE7F;
+ 	color: white;
+ 	width: 100%;
+	position: fixed;
+	z-index: 2;
+ }
+.icon-bar{
+	background-color: white;
+}
+.navbar-nav> li > a{
+	text-shadow: none;
+	text-transform: uppercase;
+}
+.nav >li >a:hover {
+	background-color: initial;
+	color: hsla(0,0%,100%,0.5);
+}
+/*Ofertas*/
+	.ofertas{
+		background-color: ;
+	}
+	.thumbnail img{
+		height: 150px;
+	}
+/*Productos*/
+	.productos{
+		padding-top: 50px;
+		padding-bottom: 50px;	
+	}
+/*Nosotros*/
+	.nosotros{
+		background-color: #4F8C6C;
+		padding:50px;
+	}
+/*Contacto*/
+	.contacto{
+		background-color: #99BE7F;
+		padding: 50px;
+ }
+/*Pie de página*/
+	.pie{
+		background-color: #335941;
+ }
+/*Sección final*/
+	.final{
+		background-color: #335941;
+		text-align: center;
+ }
+
+/*redes sociales*/
+ .sociales{
+	background-color: #224555;
+	height: 300px;
+	padding: 80px;
+	text-align: center;
+}
+.fa-facebook-square{
+	font-size: 50px;
+	color: white;
+}
+.fa-youtube-square {
+	font-size: 50px;
+	color: white;
+}
+.fa-instagram {
+	font-size: 50px;
+	color: white;
+}
+.fa-twitter-square {
+	font-size: 50px;
+	color: white;
+}
+.fa-linkedin {
+	font-size: 50px;
+	color: white;
+}
+.sociales_circle{
+	margin: 20px;
+}
