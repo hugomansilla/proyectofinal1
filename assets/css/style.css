@@ -3,32 +3,49 @@ body{
 	font-family: 'Lobster', cursive;
 }	
 
-h1, h2, h3{
-
+h1{
+	font-size: 5em;	
+}
+h2{
+	font-size: 3em;	
+}
+h3{
+	font-size: 2em;	
 } 
 
 p {
-
+	font-family: 'Libre Baskerville', serif;
 }
 /*Barra de navegación*/
  .navbar{
  	background-color: #99BE7F;
  	color: white;
  	width: 100%;
-	position: fixed;
-	z-index: 2;
+ 	font-size: 20px;
  }
-.icon-bar{
+ .icon-bar{
 	background-color: white;
 }
-.navbar-nav> li > a{
+ .navbar-nav> li > a{
 	text-shadow: none;
 	text-transform: uppercase;
 }
-.nav >li >a:hover {
+ .nav >li >a:hover {
 	background-color: initial;
 	color: hsla(0,0%,100%,0.5);
 }
+ .menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+/*Header*/
+ .carousel-inner p{
+ 	font-size: 50px;
+ }
 /*Ofertas*/
 	.ofertas{
 		background-color: ;
@@ -36,20 +53,58 @@ p {
 	.thumbnail img{
 		height: 150px;
 	}
+	.ofertas_header{
+ 		height: 100px;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+
+ 	}
 /*Productos*/
 	.productos{
 		padding-top: 50px;
 		padding-bottom: 50px;	
 	}
+	.productos_header{
+ 		height: 100px;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+
+ }
 /*Nosotros*/
 	.nosotros{
 		background-color: #4F8C6C;
 		padding:50px;
 	}
+	.nosotros_header{
+ 		height: 100px;
+ 		background-color: #4F8C6C;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+
+ }
+
+ /*Valor agregado*/
+ .agregado{
+
+ }
+ .icon_agregado{
+	width: 30%;
+	height: 50%;
+	margin-top: 30px;
+	text-align: center;
+	display: block;
+ }
 /*Contacto*/
 	.contacto{
 		background-color: #99BE7F;
 		padding: 50px;
+ }
+ 	.contacto_header{
+ 		height: 100px;
+ 		background-color: #99BE7F;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+
  }
 /*Pie de página*/
 	.pie{
