@@ -1,3 +1,161 @@
+@media only screen and (max-width: 1000px){
+
+/*Global Styles*/
+body{
+	font-family: 'Lobster', cursive;
+}	
+
+h1{
+	font-size: 3em;	
+}
+h2{
+	font-size: 2em;	
+}
+h3{
+	font-size: 1em;	
+} 
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.8em;
+}
+/*Barra de navegación*/
+	 .navbar{
+	 	background-color: #99BE7F;
+	 	color: white;
+	 	width: 100%;
+	 	font-size: 20px;
+	 }
+	 .icon-bar{
+		background-color: white;
+	}
+	 .navbar-nav> li > a{
+		text-shadow: none;
+		text-transform: uppercase;
+	}
+	 .nav >li >a:hover {
+		background-color: initial;
+		color: hsla(0,0%,100%,0.5);
+	}
+	 .menu-fixed {
+		position:fixed;
+		z-index:1000;
+		top:0;
+		left:0;
+		width:100%;
+		box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	}
+/*Header*/
+	 header{
+	 	display: none;
+	 }
+	 .carousel-inner p{
+	 	font-size: 50px;
+	 	display: none;
+	 }
+/*Ofertas*/
+	.ofertas{
+		background-color: ;
+		display: none;
+	}
+	.thumbnail img{
+		height: 150px;
+	}
+	.ofertas_header{
+ 		height: 100px;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+ 		display: none;
+ 	}
+/*Productos*/
+	.productos{
+		padding-top: 50px;
+		padding-bottom: 50px;	
+	}
+	.productos_header{
+ 		height: 100px;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+
+	 }
+/*Nosotros*/
+	.nosotros{
+		background-color: #4F8C6C;
+		padding:50px;
+	}
+	.nosotros_header{
+ 		height: 100px;
+ 		background-color: #4F8C6C;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+	}
+ /*Valor agregado*/
+	 .agregado {
+	 	text-align: center;
+	 	background-color: #4F8C6C; 
+	 	padding-bottom: 40px;
+	 }
+	 .icon_agregado{
+		width: 30%;
+		height: 50%;
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 20px;
+	 }
+	.agregado p{
+		font-size: 1.5em;
+	 }
+/*Contacto*/
+	.contacto{
+		background-color: #99BE7F;
+		padding: 50px;
+ }
+ 	.contacto_header{
+ 		height: 100px;
+ 		background-color: #99BE7F;
+ 		text-align: center; 
+ 		margin-bottom: 30px;
+
+ }
+/*Sección final*/
+	.final{
+		background-color: #99BE7F;
+		text-align: center;
+ }
+
+/*redes sociales*/
+	 .sociales{
+		background-color: #224555;
+		height: 300px;
+		padding: 80px;
+		text-align: center;
+	}
+	.fa-facebook-square{
+		font-size: 50px;
+		color: white;
+	}
+	.fa-youtube-square {
+		font-size: 50px;
+		color: white;
+	}
+	.fa-instagram {
+		font-size: 50px;
+		color: white;
+	}
+	.fa-twitter-square {
+		font-size: 50px;
+		color: white;
+	}
+	.fa-linkedin {
+		font-size: 50px;
+		color: white;
+	}
+	.sociales_circle{
+		margin: 20px;
+	}
+}
+@media (min-width: 600px) {
+
 /*Global Styles*/
 body{
 	font-family: 'Lobster', cursive;
@@ -144,4 +302,5 @@ p {
 	}
 	.sociales_circle{
 		margin: 20px;
-	}
+	}	
+}
