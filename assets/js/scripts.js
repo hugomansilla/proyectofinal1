@@ -9,6 +9,20 @@ $(document).ready(function(){
 		}
 	});
 
+
+	$('.btn').on('click', function(){
+		$.smallBox({
+		  position: 4,
+		  content:"Agregado al carro de compras",
+		  fa:"fa-shopping-cart",
+		  sound:false,
+		  color:"#63B999",
+		  buttons:["Cerrar"],
+		  buttonhover:"#21066E",
+		});
+
+	})
+
 	$('.grid').masonry({
 		  // options
 		  itemSelector: '.grid-item',

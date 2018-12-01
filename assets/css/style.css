@@ -185,6 +185,7 @@ p {
 	 	width: 100%;
 	 	font-size: 20px;
 	}
+
 	}
 	.navbar-nav> li > a{
 		text-shadow: none;
@@ -290,7 +291,7 @@ p {
 	 	padding-bottom: 40px;
 	 	font-size: 2rem;
 	 }
-	 .icon_agregado{
+	 .icon_agregado {
 		width: 30%;
 		height: 50%;
 		margin-top: 30px;
@@ -298,14 +299,14 @@ p {
 		margin-bottom: 20px;
 		color: white;
 	 }
-	.agregado p{
+	.agregado p {
 		font-size: 1.5em;
 	 }
 /*Contacto*/
 	.contacto{
 		background-color: #63B999;
 		padding: 50px;
- }
+ 	}
  	.contacto_header{
  		height: 100px;
  		background-color: #63B999;
@@ -313,12 +314,12 @@ p {
  		margin-bottom: 30px;
  		color: white;
 
- }
+	}
 /*Sección final*/
 	.final{
 		background-color: #63B999;
 		text-align: center;
- }
+ 	}
 
 /*redes sociales*/
 
@@ -372,4 +373,5 @@ p {
 		
 	}
 	.grid-item--width2 { width: 400px; }
+	
 }
