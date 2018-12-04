@@ -23,9 +23,50 @@
 <body>
 
 	<h1><i class="fas fa-shopping-cart"></i> Mis compras</a></h1>
-
-	<div></div>
-
+	<br>
+	<br>
+	<div class="col-md-6">
+		<h3>Insumos seleccionados:</h3>
+		<div id="places-container">
+			<div class="item">
+				<div class="borrar">Bandeja de examen</div>
+			</div>
+			<div class="item">
+				<div class="borrar">Porta Clamp</div>
+			</div>
+			<div class="item">
+				<div class="borrar">Perforador de goma</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<h3>Seleccione insumos:</h3>
+		<h4>Productos con 20% de descuento:</h4>
+		<div id="add-container1">
+			<input list="productos1">
+			<datalist id="productos1">
+				<option value="Bandeja de examen ($2.990)"></option>
+				<option value="Porta Clamp ($3.600)"></option>
+				<option value="Perforador de goma ($3.900)"></option>
+			</datalist>
+			<button>Agregar</button>
+		</div>
+		<h4>Productos con 10% de descuento:</h4>
+		<div id="add-container2">
+			<input list="productos2">
+			<datalist id="productos2">
+				<option value="Cubeta inferior perforada ($4.800)"></option>
+				<option value="Cubeta superior perforada ($4.800)"></option>
+				<option value="Vaso dappen: 4 unidades ($2.300)"></option>
+			</datalist>
+			<button>Agregar</button>
+		</div>
+	</div>
+	<div class="col-md-12">
+		<br>
+		<br>
+		<a href="index.html"><button>Volver a inicio</button></a>
+	</div>
 
 
 	<!-- Jquery 3.3.1-->
